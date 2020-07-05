@@ -1,36 +1,43 @@
 .hero-img {
   grid-column: 1/4;
   grid-row: 2/4;
-  margin-top: 36px;
+  margin-top: 11%;
   text-align: center;
 }
 
 .hero-img--info {
   background-color: rgba(212, 214, 213, 0.5);
-  height: 180px;
-  width: 245px;
-  margin: 87px 36px;
+  margin: 20% 10% 34%;
 }
 
-.tittle-hero-img {
+.tittle--hero-img {
   display: inline-block;
   font-size: 18px;
+  font-family: "Libre Baskerville", serif;
   margin: 0;
   padding: 20px;
   text-align: center;
 }
 
 .info--hero-img {
-  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.7rem;
   margin: 0;
   padding: 10px;
+}
+
+.hero-img-circ {
+  bottom: -1%;
+  left: 0%;
+  position: absolute;
+  width: 49%;
 }
 
 .header {
   background-image: url("../../img/hero-img.jpg");
   display: grid;
-  grid-template-columns: 132px 60px 74px;
-  grid-template-rows: 98px 118px 107px 89px 168px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0fr 1fr 1fr 0.5fr;
   background-size: cover;
 }
 
@@ -44,13 +51,12 @@
 .logo {
   grid-column: 1/3;
   grid-row: 1/2;
-  padding-left: 10px;
-  padding-top: 15px;
+  padding: 7% 0 5% 5%;
   max-width: 100%;
 }
 
 .menu {
-  margin: 10px 0;
+  margin: 5% 0;
   padding: 0;
   list-style: none;
   overflow: hidden;
@@ -60,7 +66,7 @@
 .hamburguer-menu {
   grid-column: 1/5;
   grid-row: 1/6;
-  padding-top: 30px;
+  padding-top: 10%;
   z-index: 1;
 }
 
@@ -84,8 +90,8 @@
   height: 2px;
   position: relative;
   transition: background 0.2s ease-out;
-  width: 25px;
-  margin-left: 260px;
+  width: 9%;
+  margin-left: 80%;
 }
 
 .hamburguer-menu .menu-icon .navicon:before,
@@ -142,15 +148,68 @@ li {
 }
 
 li a {
-  display: block;
-  padding: 20px 20px;
-  text-decoration: none;
   color: #ffffff;
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 6%;
+  text-decoration: none;
 }
 
 li a:active {
   background-color: #e43d03;
   color: #003474;
+}
+
+.menu-list {
+  color: #ffffff;
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 6%;
+  text-decoration: none;
+}
+
+.esconde {
+  display: none;
+}
+
+.muestra {
+  display: block;
+}
+
+.about {
+  background-color: #d4d6d5;
+}
+
+.tittle-about {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 10%;
+}
+
+.line-orange {
+  background-color: #e43d03;
+  border-color: transparent;
+  bottom: 35px;
+  height: 5px;
+  position: relative;
+  right: 18%;
+  width: 32%;
+}
+
+.info-about {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.7rem;
+  margin: 0;
+  padding: 4% 5% 1% 10%;
+}
+
+.info-about + .info-about {
+  padding: 4% 5% 1% 10%;
+}
+
+.info-about:last-child {
+  padding-bottom: 15%;
 }
 
 body {
