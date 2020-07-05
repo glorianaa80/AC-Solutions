@@ -1,8 +1,8 @@
  .header {
      background-image: url('../../img/hero-img.jpg');
      display: grid;
-     grid-template-columns: 132px 60px 74px;
-     grid-template-rows: 98px 118px 107px 89px 168px;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 0fr 1fr 1fr 0.5fr;
      background-size: cover;
  }
  
@@ -16,7 +16,6 @@
  .logo {
      grid-column: 1/3;
      grid-row: 1/2;
-     padding-left: 10px;
-     padding-top: 15px;
+     padding: 7% 0 5% 5%;
      max-width: 100%;
  }

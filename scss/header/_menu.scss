@@ -1,5 +1,5 @@
 .menu {
-    margin: 10px 0;
+    margin: 5% 0;
     padding: 0;
     list-style: none;
     overflow: hidden;
@@ -9,7 +9,7 @@
 .hamburguer-menu {
     grid-column: 1/5;
     grid-row: 1/6;
-    padding-top: 30px;
+    padding-top: 10%;
     z-index: 1;
 }
 
@@ -35,8 +35,8 @@
     height: 2px;
     position: relative;
     transition: background .2s ease-out;
-    width: 25px;
-    margin-left: 260px;
+    width: 9%;
+    margin-left: 80%;
 }
 
 .hamburguer-menu .menu-icon .navicon:before,
@@ -95,13 +95,30 @@ li {
 }
 
 li a {
+    color: #ffffff;
     display: block;
-    padding: 20px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 6%;
     text-decoration: none;
-    color: #ffffff
 }
 
 li a:active {
     background-color: #e43d03;
     color: #003474;
+}
+
+.menu-list {
+    color: #ffffff;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 6%;
+    text-decoration: none;
+}
+
+.esconde {
+    display: none;
+}
+
+.muestra {
+    display: block;
 }
