@@ -1,0 +1,35 @@
+.about {
+    background-color: #d4d6d5;
+}
+
+.tittle-about {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 10%;
+}
+
+.line-orange {
+    background-color: #e43d03;
+    border-color: transparent;
+    bottom: 35px;
+    height: 5px;
+    position: relative;
+    right: 18%;
+    width: 32%
+}
+
+.info-about {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem;
+    margin: 0;
+    padding: 4% 5% 1% 10%;
+}
+
+.info-about+.info-about {
+    padding: 4% 5% 1% 10%;
+}
+
+.info-about:last-child {
+    padding-bottom: 15%;
+}
