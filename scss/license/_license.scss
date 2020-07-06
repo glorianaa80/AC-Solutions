@@ -1,0 +1,97 @@
+.circ-color-blue {
+    border: solid 3px #003474;
+}
+
+.circ-color-orange {
+    border: solid 3px #e43d03;
+}
+
+.color-blue {
+    background-color: #003474;
+    bottom: 15px;
+    right: 7%;
+}
+
+.info-position-1 {
+    position: absolute;
+    top: 25%;
+    left: 33%;
+}
+
+.info-position-2 {
+    position: absolute;
+    top: 47%;
+    left: 33%;
+}
+
+.info-position-3 {
+    position: absolute;
+    top: 69%;
+    left: 33%;
+}
+
+.info-position-4 {
+    position: absolute;
+    top: 91%;
+    left: 33%;
+}
+
+.license {
+    position: relative;
+}
+
+.license-circ {
+    border-radius: 50%;
+    height: 200px;
+    line-height: 190px;
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+}
+
+.license-decor-circ2 {
+    position: relative;
+    width: 40%;
+}
+
+.license-images {
+    width: 90%;
+    vertical-align: middle;
+}
+
+.license-info {
+    background-color: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100px;
+}
+
+.license-info--link {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.license-container {
+    padding: 10% 0% 21% 0%;
+}
+
+.link-blue {
+    color: #003474;
+}
+
+.link-orange {
+    color: #e43d03;
+}
+
+.tittle-license {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2rem;
+    left: 25%;
+    margin: 0;
+    position: absolute;
+    top: 8%;
+}
