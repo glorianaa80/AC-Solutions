@@ -1,16 +1,16 @@
+ .background-header {
+     background: #003474;
+     max-width: 100%;
+     grid-column: 1/5;
+     grid-row: 1/2;
+ }
+ 
  .header {
      background-image: url('../../img/hero-img.jpg');
      display: grid;
      grid-template-columns: 1fr 1fr 1fr;
      grid-template-rows: 0fr 1fr 1fr 0.5fr;
      background-size: cover;
- }
- 
- .background-header {
-     background: #003474;
-     max-width: 100%;
-     grid-column: 1/5;
-     grid-row: 1/2;
  }
  
  .logo {

@@ -1,9 +1,5 @@
-.menu {
-    margin: 5% 0;
-    padding: 0;
-    list-style: none;
-    overflow: hidden;
-    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+.esconde {
+    display: none;
 }
 
 .hamburguer-menu {
@@ -86,25 +82,12 @@
     top: 0;
 }
 
-a ul {
-    display: none;
-}
-
-li {
+.menu {
+    margin: 5% 0;
+    padding: 0;
     list-style: none;
-}
-
-li a {
-    color: #ffffff;
-    display: block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 6%;
-    text-decoration: none;
-}
-
-li a:active {
-    background-color: #e43d03;
-    color: #003474;
+    overflow: hidden;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
 }
 
 .menu-list {
@@ -113,10 +96,6 @@ li a:active {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 6%;
     text-decoration: none;
-}
-
-.esconde {
-    display: none;
 }
 
 .muestra {
