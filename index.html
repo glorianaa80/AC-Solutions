@@ -11,80 +11,141 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="background-header"></div>
-        <img src="./img/white-logo.svg" class="logo">
-        <div class="hamburguer-menu ">
-            <input class="menu-btn" type="checkbox" id="menu-btn" />
-            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-            <ul class="menu">
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="#">Acerca de Nosotros</a></li>
-                <li class="menu-list" id="link">Licenciamientos
-                    <ul class="esconde" id="accordion">
-                        <li><a href="#">Microsotf</a></li>
-                        <li><a href="#">Veritas</a></li>
-                        <li><a href="#"> McAfee</a></li>
-                        <li><a href="#">Sophos</a></li>
-                    </ul>
-                </li>
-                <li> <a href="#">Servicios</a></li>
-                <li><a href="#">Contacto</a></li>
+    <header>
+        <div class="container">
+            <a href="./index.html"><img src="./img/white-logo.svg" class="logo"></a>
+        </div>
+        <nav id="site-nav" class="site-nav">
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Acerca de Nosotros</a></li>
+                <li><a href="">Licenciamientos</a></li>
+                <li><a href="">Servicios</a></li>
+                <li><a href="">Contacto</a></li>
             </ul>
+        </nav>
+        <div id="menu-toggle" class="menu-toggle" onclick="classChange()">
+            <div class="hamburger"></div>
         </div>
-        <div class="hero-img">
-            <div class="hero-img--info">
-                <h1 class="tittle--hero-img">Servicios y Soluciones relacionadas con la Tenologías de la Información</h1>
-                <p class="info--hero-img">Adopción de tecnologías de la NUBE </p>
-            </div>
-            <img src="./img/decor/circ-1.svg" class="hero-img-decor-circ1">
+    </header>
+    <div class="hero-img">
+        <div class="hero-img--info">
+            <h1 class="tittle--hero-img">Servicios y Soluciones relacionadas con la Tenologías de la Información</h1>
+            <p class="info--hero-img">Adopción de tecnologías de la NUBE </p>
         </div>
+        <img src="./img/decor/circ-1.svg" class="hero-img-decor-circ1">
     </div>
     <div class="about">
         <h2 class="tittle-about">Acerca de Nosotros</h2>
-        <hr class="line color-orange">
-        <p class="info-about">AC Solutions es un equipo conformado por profesionales, lo que nos caracteriza por trabajar desde cualquier lugar y dispositivo, nuestro compromiso es la adopción de tecnologías de la NUBE.</p>
-        <p class="info-about">Estamos dirigidos principalmente a pequeñas y medianas empresas, por lo que nuestros servicios se centran en proyectos con gran contenido tecnológico y servicios de alto nivel.</p>
-        <p class="info-about">Puede confiar en nuestro equipo, no importa cuál sea su requerimiento, nuestro compromiso es ser un aliado de negocios y un asesor de confianza para que de esa forma podamos mantener una relación de años. Le brindamos una amplia gama de soluciones
-            y lo más importante, serán desarrolladas a su medida.</p>
+        <hr class="line-color-orange">
+        <div class="info-container">
+            <p class="info-about">AC Solutions es un equipo conformado por profesionales, lo que nos caracteriza por trabajar desde cualquier lugar y dispositivo, nuestro compromiso es la adopción de tecnologías de la NUBE.</p>
+            <p class="info-about">Estamos dirigidos principalmente a pequeñas y medianas empresas, por lo que nuestros servicios se centran en proyectos con gran contenido tecnológico y servicios de alto nivel.</p>
+            <p class="info-about">Puede confiar en nuestro equipo, no importa cuál sea su requerimiento, nuestro compromiso es ser un aliado de negocios y un asesor de confianza para que de esa forma podamos mantener una relación de años. Le brindamos una amplia gama de soluciones
+                y lo más importante, serán desarrolladas a su medida.</p>
+        </div>
+
     </div>
     <div class="license">
         <img src="./img/decor/circ-2.svg" class="license-decor-circ2">
         <h2 class="tittle-license">Licenciamientos en :</h2>
-        <hr class="line color-blue">
-        <div class="license-container">
+        <hr class="line-color-blue">
+        <div class="license-container-1">
             <div class="license-circ circ-color-orange">
                 <img class="license-images" src="./img/microsoft-y-office.png">
             </div>
-            <div class="license-info circ-color-orange info-position-1">
+            <div class="license-info p-posicition circ-color-orange">
                 <a class="license-info--link link-orange" href="#">Microsotf</a>
             </div>
         </div>
-        <div class="license-container">
+        <div class="license-container-2">
             <div class="license-circ circ-color-blue">
                 <img class="license-images" src="./img/veritas.png">
             </div>
-            <div class="license-info circ-color-blue info-position-2">
+            <div class="license-info p-posicition circ-color-blue">
                 <a class="license-info--link link-blue" href="#">Veritas</a>
             </div>
         </div>
-        <div class="license-container">
+        <div class="license-container-3">
             <div class="license-circ circ-color-blue">
                 <img class="license-images" src="./img/mcafee.png">
             </div>
-            <div class="license-info circ-color-blue info-position-3">
+            <div class="license-info p-posicition circ-color-blue">
                 <a class="license-info--link link-blue" href="#">McAfee</a>
             </div>
         </div>
-        <div class="license-container">
+        <div class="license-container-4">
             <div class="license-circ circ-color-orange">
                 <img class="license-images" src="./img/sophos.png">
             </div>
-            <div class="license-info circ-color-orange info-position-4">
+            <div class="license-info p-posicition circ-color-orange">
                 <a class="license-info--link link-orange" href="#">Sophos</a>
             </div>
         </div>
     </div>
+    <div class="services">
+        <img src="./img/decor/circ-3.svg" class="services-decor-circ3">
+        <h2 class="tittle-services">Servicios</h2>
+        <hr class="line-color-orange-serv">
+        <div class="sharepoint">
+            <img class="services-images" src="./img/icono/sharepoint.svg">
+            <h3 class="subtittle-services">sharepoint</h3>
+            <p class="info-services">Proyectos de Colaboración Empresarial</p>
+        </div>
+        <div class="migrate">
+            <img class="services-images img-size" src="./img/icono/migrate.svg">
+            <h3 class="subtittle-services">migrate</h3>
+            <p class="info-services">Migramos sus proyectos de AD, Windows Server, SQL Server, Exchange Online.</p>
+        </div>
+        <div class="sql">
+            <img class="services-images" src="./img/icono/sql.svg">
+            <h3 class="subtittle-services">sql</h3>
+            <p class="info-services">Amplios Servicios en SQL Server. </p>
+        </div>
+        <div class="messanger">
+            <img class="services-images" src="./img/icono/messager.svg">
+            <h3 class="subtittle-services">messanger</h3>
+            <p class="info-services">Mensajería Unificada e integración con Sistemas de Telefonía</p>
+        </div>
+        <div class="security">
+            <img class="services-images" src="./img/icono/security.svg">
+            <h3 class="subtittle-services">security</h3>
+            <p class="info-services">Seguridad perimetral (Hardware & Software).</p>
+        </div>
+        <div class="view">
+            <img class="services-images" src="./img/icono/view.svg">
+            <h3 class="subtittle-services">view</h3>
+            <p class="info-services">Consolidación y Virtualización de Servidores (Azure).</p>
+        </div>
+    </div>
+    <footer>
+        <h2 class="tittle-contact">Contacto</h2>
+        <hr class="line-color-blue-contact">
+        <div class="info-contact">
+            <div class="container-info">
+                <img src="./img/contact/email.svg" class="icono-contact">
+                <p class="info">info@acsolutionscr.com</p>
+            </div>
+            <div class="container-info">
+                <img src="./img/contact/phone.svg" class="icono-contact icono-size">
+                <div class="info">
+                    <p class="info-mg">(506) 7209 - 9848</p>
+                    <p class="info-mg">(506) 8826 - 3497</p>
+                </div>
+            </div>
+            <div class="social-media">
+                <a class="social-link" href=""><img class="social-img social-size" src="./img/contact/facebook.svg"></a>
+                <a class="social-link" href=""><img class="social-img" src="./img/contact/insta.svg"></a>
+                <a class="social-link" href=""><img class="social-img social-size2" src="./img/contact/twitter.svg"></a>
+                <a class="social-link" href=""><img class="social-img" src="./img/contact/linkedIn.svg"></a>
+            </div>
+            <div class="container-logo">
+                <a href="./index.html "><img class="logo-contact " src="./img/blue-logo.svg " alt=" "></a>
+                <img class="footer-bg" src="./img/decor/footer.svg">
+
+            </div>
+        </div>
+    </footer>
 
 </body>
 <script src="./js/script.js "></script>
