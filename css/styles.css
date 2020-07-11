@@ -466,11 +466,9 @@ header {
 }
 
 .social-media {
-  position: absolute;
-  bottom: 7%;
   grid-column: 1/5;
-  width: 80%;
-  left: 9%;
+  margin-top: 10%;
+  text-align: center;
 }
 
 .social-img {
