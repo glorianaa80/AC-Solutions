@@ -41,7 +41,7 @@
 }
 
 header {
-  background-color: #003474;
+  background-color: #d4d6d5;
   color: #ffffff;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -56,7 +56,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-  background-color: #ffffff;
+  background-color: #003474;
   border-radius: 3px;
   content: "";
   display: block;
