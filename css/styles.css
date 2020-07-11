@@ -459,16 +459,18 @@ header {
 
 .logo-contact {
   position: absolute;
-  bottom: -30%;
+  bottom: 0%;
   grid-column: 1/5;
-  width: 100%;
+  width: 90%;
+  left: 5%;
 }
 
 .social-media {
+  position: absolute;
+  bottom: 7%;
   grid-column: 1/5;
-  margin-bottom: 20%;
-  margin-top: 10%;
-  text-align: center;
+  width: 80%;
+  left: 9%;
 }
 
 .social-img {
