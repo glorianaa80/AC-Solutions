@@ -3,27 +3,8 @@
 @import 'header/menu';
 @import 'about/about';
 @import 'license/license';
+@import 'services/services';
+@import 'contacto/contacto';
 body {
     margin: 0;
-}
-
-a ul {
-    display: none;
-}
-
-li {
-    list-style: none;
-}
-
-li a {
-    color: #ffffff;
-    display: block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 6%;
-    text-decoration: none;
-}
-
-li a:active {
-    background-color: #e43d03;
-    color: #003474;
 }
