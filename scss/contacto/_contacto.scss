@@ -1,0 +1,92 @@
+.container-logo {
+    position: relative;
+    grid-column: 1/5;
+}
+
+.container-info {
+    display: grid;
+    grid-column: 1/5;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 10%;
+}
+
+.footer-bg {
+    width: 100%;
+}
+
+.icono-contact {
+    align-self: center;
+    grid-column: 1/2;
+    justify-self: center;
+    width: 50%;
+}
+
+.icono-size {
+    width: 35%;
+}
+
+.info {
+    align-self: center;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    margin: 0;
+    grid-column: 2/5;
+}
+
+.info-contact {
+    background-color: #003474;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 15%;
+}
+
+.info-mg {
+    margin: 0;
+}
+
+.line-color-blue-contact {
+    background-color: #003474;
+    border-color: transparent;
+    height: 5px;
+    margin: 0 0 10% 39%;
+    width: 36%;
+}
+
+.logo-contact {
+    position: absolute;
+    bottom: -30%;
+    grid-column: 1/5;
+    width: 100%;
+}
+
+.social-media {
+    grid-column: 1/5;
+    margin-bottom: 20%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.social-img {
+    width: 10%;
+}
+
+.social-link {
+    padding: 2%;
+}
+
+.social-size {
+    width: 6%;
+}
+
+.social-size2 {
+    width: 12%;
+}
+
+.tittle-contact {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 10% 10% 1% 10%;
+    text-align: center;
+}
