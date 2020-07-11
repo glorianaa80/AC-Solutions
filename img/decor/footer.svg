@@ -1,4 +1,8 @@
-<svg width="436" height="284" viewBox="0 0 436 284" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M219.986 25.3912C72.4864 23.8925 5.48634 170.393 31.4862 258.891H408.986C427.986 61.3924 264.986 20.3924 219.986 25.3912Z" fill="#E43D03" stroke="white" stroke-width="50"/>
-<path d="M52 232H385V284H52V232Z" fill="#E43D03"/>
+<svg width="320" height="269" viewBox="0 0 320 269" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="320" height="269">
+<path d="M1.52588e-05 269L3.5 93L159 0.499993L320 85L320 269L1.52588e-05 269Z" fill="#003474"/>
+</mask>
+<g mask="url(#mask0)">
+<circle cx="159.897" cy="239.103" r="166.897" transform="rotate(-90 159.897 239.103)" fill="#E43D03" stroke="white" stroke-width="50"/>
+</g>
 </svg>
