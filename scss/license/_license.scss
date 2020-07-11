@@ -6,38 +6,9 @@
     border: solid 3px #e43d03;
 }
 
-.color-blue {
-    background-color: #003474;
-    bottom: 15px;
-    right: 7%;
-}
-
-.info-position-1 {
-    position: absolute;
-    top: 25%;
-    left: 33%;
-}
-
-.info-position-2 {
-    position: absolute;
-    top: 47%;
-    left: 33%;
-}
-
-.info-position-3 {
-    position: absolute;
-    top: 69%;
-    left: 33%;
-}
-
-.info-position-4 {
-    position: absolute;
-    top: 91%;
-    left: 33%;
-}
-
 .license {
-    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .license-circ {
@@ -49,14 +20,55 @@
     width: 200px;
 }
 
-.license-decor-circ2 {
+.license-container-1 {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    margin-bottom: 30%;
     position: relative;
+}
+
+.license-container-2 {
+    grid-column: 1/4;
+    grid-row: 4/5;
+    margin-bottom: 30%;
+    position: relative;
+}
+
+.license-container-3 {
+    grid-column: 1/4;
+    grid-row: 5/6;
+    margin-bottom: 30%;
+    position: relative;
+}
+
+.license-container-4 {
+    grid-column: 1/4;
+    grid-row: 6/7;
+    margin-bottom: 30%;
+    position: relative;
+}
+
+.license-decor-circ2 {
+    grid-column: 1/4;
+    grid-row: 1/2;
     width: 40%;
 }
 
+.line-color-blue {
+    .line-color-blue {
+        background-color: #003474;
+        border-color: transparent;
+        grid-column: 1/4;
+        grid-row: 2/3;
+        height: 5px;
+        margin: 1% 0 10% 23%;
+        width: 36%;
+    }
+}
+
 .license-images {
-    width: 90%;
     vertical-align: middle;
+    width: 90%;
 }
 
 .license-info {
@@ -71,8 +83,8 @@
 }
 
 .license-info--link {
-    text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
 }
 
 .license-container {
@@ -87,11 +99,18 @@
     color: #e43d03;
 }
 
+.p-posicition {
+    bottom: -23%;
+    left: 34%;
+    position: absolute;
+}
+
 .tittle-license {
+    align-self: end;
     font-family: 'Libre Baskerville', serif;
     font-size: 1.2rem;
-    left: 25%;
-    margin: 0;
-    position: absolute;
-    top: 8%;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    margin: 0 0 0 10%;
+    justify-self: center;
 }

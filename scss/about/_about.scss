@@ -1,9 +1,17 @@
 .about {
     background-color: #d4d6d5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.color-orange {
+.line-color-orange {
     background-color: #e43d03;
+    border-color: transparent;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    height: 5px;
+    margin: 1% 0 10% 13%;
+    width: 36%;
 }
 
 .info-about {
@@ -21,18 +29,16 @@
     padding-bottom: 15%;
 }
 
-.line {
-    border-color: transparent;
-    bottom: 35px;
-    height: 5px;
-    position: relative;
-    right: 20%;
-    width: 32%
+.info-container {
+    grid-column: 1/4;
+    grid-row: 3/4;
 }
 
 .tittle-about {
     font-family: 'Libre Baskerville', serif;
     font-size: 1.2rem;
+    grid-column: 1/4;
+    grid-row: 1/1;
     margin: 0;
-    padding: 10%;
+    padding: 10% 10% 1% 10%;
 }
