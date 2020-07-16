@@ -19,34 +19,54 @@
     grid-column: 1/4;
     margin-bottom: 20%;
     text-align: center;
+    @media(min-width: 768px) {
+        grid-column: 3/5;
+    }
 }
 
 .migrate {
     grid-column: 1/4;
     margin-bottom: 20%;
     text-align: center;
+    @media(min-width: 768px) {
+        grid-column: 3/5;
+    }
 }
 
 .security {
     grid-column: 1/4;
     margin-bottom: 20%;
     text-align: center;
+    @media(min-width: 768px) {
+        grid-column: 1/3;
+    }
 }
 
 .services {
     background-color: #d4d6d5;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    @media(min-width: 768px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 
 .services-decor-circ3 {
     grid-column: 3/4;
     grid-row: 1/2;
     width: 100%;
+    @media(min-width: 768px) {
+        grid-column: 4/5;
+        justify-self: end;
+        width: 70%;
+    }
 }
 
 .services-images {
-    width: 20%;
+    width: 10%;
+    @media(min-width: 768px) {
+        width: 20%;
+    }
 }
 
 .subtittle-services {
@@ -61,12 +81,18 @@
     grid-column: 1/4;
     margin-bottom: 20%;
     text-align: center;
+    @media(min-width: 768px) {
+        grid-column: 1/3;
+    }
 }
 
 .sql {
     grid-column: 1/4;
     margin-bottom: 20%;
     text-align: center;
+    @media(min-width: 768px) {
+        grid-column: 1/3;
+    }
 }
 
 .tittle-services {
@@ -76,14 +102,23 @@
     grid-row: 1/1;
     margin: 0;
     padding: 10% 10% 1% 10%;
+    @media(min-width: 768px) {
+        font-size: 2.3rem;
+    }
 }
 
 .view {
     grid-column: 1/4;
     margin-bottom: 20%;
     text-align: center;
+    @media(min-width: 768px) {
+        grid-column: 3/5;
+    }
 }
 
 .img-size {
-    width: 25%
+    width: 20%;
+    @media(min-width: 768px) {
+        width: 30%;
+    }
 }
