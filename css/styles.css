@@ -117,6 +117,11 @@ header {
     top: 23%;
   }
 }
+@media (min-width: 450px) {
+  .site-nav {
+    top: 25%;
+  }
+}
 
 .site-nav a {
   color: #ffffff;
@@ -133,6 +138,11 @@ header {
 @media (min-width: 414px) {
   .site-nav a {
     padding: 1.6em 10.8em 2em 3em;
+  }
+}
+@media (min-width: 450px) {
+  .site-nav a {
+    padding: 2.6em 12.3em 2em 3em;
   }
 }
 

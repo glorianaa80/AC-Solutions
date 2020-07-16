@@ -49,6 +49,9 @@
     @media(min-width: 414px) {
         top: 23%;
     }
+    @media(min-width: 450px) {
+        top: 25%;
+    }
 }
 
 .site-nav a {
@@ -62,6 +65,9 @@
     }
     @media(min-width: 414px) {
         padding: 1.6em 10.8em 2em 3em;
+    }
+    @media(min-width: 450px) {
+        padding: 2.6em 12.3em 2em 3em;
     }
 }
 
