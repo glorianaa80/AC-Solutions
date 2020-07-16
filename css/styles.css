@@ -40,6 +40,14 @@
   width: 95%;
 }
 
+.decor-logo {
+  display: none;
+}
+
+.decor-menu {
+  display: none;
+}
+
 header {
   background-color: #d4d6d5;
   color: #ffffff;
@@ -99,6 +107,16 @@ header {
   top: 24%;
   transition: clip-path ease-in-out 700ms;
 }
+@media (min-width: 375px) {
+  .site-nav {
+    top: 20%;
+  }
+}
+@media (min-width: 414px) {
+  .site-nav {
+    top: 23%;
+  }
+}
 
 .site-nav a {
   color: #ffffff;
@@ -106,6 +124,16 @@ header {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 1.6em 6.8em 2em 3em;
   text-decoration: none;
+}
+@media (min-width: 375px) {
+  .site-nav a {
+    padding: 1.6em 9.8em 2em 3em;
+  }
+}
+@media (min-width: 414px) {
+  .site-nav a {
+    padding: 1.6em 10.8em 2em 3em;
+  }
 }
 
 .site-nav a:hover,
@@ -123,35 +151,6 @@ header {
   padding: 0;
 }
 
-@media (min-width: 768px) {
-  .menu-toggle {
-    display: none;
-  }
-
-  .site-nav {
-    clip-path: initial;
-    float: right;
-    height: auto;
-    margin-right: 10px;
-    position: relative;
-  }
-
-  .site-nav li {
-    display: inline-block;
-    border: none;
-  }
-
-  .site-nav a {
-    margin: 1em;
-    padding: 0;
-  }
-
-  .site-nav a:hover,
-.site-nav a:focus {
-    background-color: transparent;
-    color: #e43d03;
-  }
-}
 .about {
   background-color: #d4d6d5;
   display: grid;
