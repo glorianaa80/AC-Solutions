@@ -12,16 +12,18 @@
 
 <body>
     <header>
+        <img src="./img/decor/circ-4.svg" class="decor-logo">
         <div class="container">
             <a href="./index.html"><img src="./img/color-logo.svg" class="logo"></a>
         </div>
+        <img src="./img/decor/circ-5.svg" class="decor-menu">
         <nav id="site-nav" class="site-nav">
             <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Acerca de Nosotros</a></li>
-                <li><a href="">Licenciamientos</a></li>
-                <li><a href="">Servicios</a></li>
-                <li><a href="">Contacto</a></li>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#about">Acerca de Nosotros</a></li>
+                <li><a href="#license">Licenciamientos</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#footer">Contacto</a></li>
             </ul>
         </nav>
         <div id="menu-toggle" class="menu-toggle" onclick="classChange()">
@@ -35,7 +37,7 @@
         </div>
         <img src="./img/decor/circ-1.svg" class="hero-img-decor-circ1">
     </div>
-    <div class="about">
+    <div id="about" class="about">
         <h2 class="tittle-about">Acerca de Nosotros</h2>
         <hr class="line-color-orange">
         <div class="info-container">
@@ -46,7 +48,7 @@
         </div>
 
     </div>
-    <div class="license">
+    <div id="license" class="license">
         <img src="./img/decor/circ-2.svg" class="license-decor-circ2">
         <h2 class="tittle-license">Licenciamientos en :</h2>
         <hr class="line-color-blue">
@@ -83,7 +85,7 @@
             </div>
         </div>
     </div>
-    <div class="services">
+    <div id="services" class="services">
         <img src="./img/decor/circ-3.svg" class="services-decor-circ3">
         <h2 class="tittle-services">Servicios</h2>
         <hr class="line-color-orange-serv">
@@ -118,7 +120,7 @@
             <p class="info-services">Consolidación y Virtualización de Servidores (Azure).</p>
         </div>
     </div>
-    <footer>
+    <footer id="footer">
         <h2 class="tittle-contact">Contacto</h2>
         <hr class="line-color-blue-contact">
         <div class="info-contact">
