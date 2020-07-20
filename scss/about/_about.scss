@@ -2,6 +2,9 @@
     background-color: #d4d6d5;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    @media(min-width: 1024px) {
+        grid-template-rows: 170px 81px 1fr;
+    }
 }
 
 .line-color-orange {
@@ -12,6 +15,9 @@
     height: 5px;
     margin: 1% 0 10% 13%;
     width: 36%;
+    @media(min-width: 1024px) {
+        width: 11%;
+    }
 }
 
 .info-about {
@@ -22,14 +28,24 @@
     @media(min-width: 768px) {
         font-size: 1.5rem;
     }
+    @media(min-width:1024px) {
+        font-size: 1rem;
+        padding: 0 5% 1% 10%;
+    }
 }
 
 .info-about+.info-about {
     padding: 4% 5% 1% 10%;
+    @media(min-width: 1024px) {
+        padding: 1% 5% 1% 10%;
+    }
 }
 
 .info-about:last-child {
     padding-bottom: 15%;
+    @media(min-width: 1024px) {
+        padding-bottom: 10%;
+    }
 }
 
 .info-container {
@@ -46,5 +62,8 @@
     padding: 10% 10% 1% 10%;
     @media(min-width: 768px) {
         font-size: 2.3rem;
+    }
+    @media(min-width:1024px) {
+        font-size: 2rem;
     }
 }
